@@ -7,12 +7,7 @@ module.exports = {
 				project: ['tsconfig.*?.json'],
 				createDefaultProgram: true,
 			},
-			extends: [
-				'plugin:@angular-eslint/recommended',
-				'plugin:@typescript-eslint/recommended',
-				'prettier',
-				'plugin:prettier/recommended',
-			],
+			extends: ['plugin:@angular-eslint/recommended', 'plugin:@typescript-eslint/recommended', 'prettier', 'plugin:prettier/recommended'],
 			rules: {
 				'max-len': ['error', { code: 180 }],
 				'no-inferrable-types': 0,
